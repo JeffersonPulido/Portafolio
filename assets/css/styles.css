@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
   font-family: "Poppins", sans-serif;
   transition: 0.8s;
 }
-/* custom scroll bar */
+/*===========NAVBAR STICKY RESPONSIVE============*/
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -66,14 +67,13 @@
 }
 .banner {
   height: 100vh;
-  position:relative;
+  position: relative;
   background: url("../img/back.png") no-repeat fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
 }
 .about {
   padding: 40px 0;
@@ -101,40 +101,103 @@
   top: 50px;
   right: 50px;
 }
-
+/*===========TEXT TITLE============*/
+.title_info {
+  color: #f1f1f1;
+  font-family: "Wellfleet", cursive;
+  letter-spacing: 3px;
+  font-size: 60px;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+/*===========TEXT TYPED============*/
+.container p {
+    font-size: 3rem;
+    padding-left: 5%;
+    font-family: "Wellfleet", cursive;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+  .container p span.typed-text {
+    font-weight: normal;
+    color: #ffc143;
+  }
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 0.6s infinite;
+  }
+  .container p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+/*===========BUTTON CV============*/
+.button_cv{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 10%;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+    justify-content: center;
+    margin-left: 5%;
+    padding: 0.5rem;
+}
+.button_cv:hover{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10%;
+    color:  black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+    justify-content: center;
+    margin-left: 5%;
+    padding: 0.5rem;
+    transition: 0.8s;
+}
 /*===================PARALLAX=======================*/
 .image1 {
-    position:relative;
-    background: url("../img/universo.jpg") no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px;
-     
+  position: relative;
+  background: url("../img/universo.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
 }
- 
+
 .image2 {
-    position:relative;
-    background: url("../img/universo2.jpg") no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px; 
+  position: relative;
+  background: url("../img/universo2.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
 }
- 
+
 .image3 {
-    position:relative;
-    background: url("../img/universo3.jpg") no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px; 
+  position: relative;
+  background: url("../img/universo3.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
 }
 
 /*===============MEDIA QUERIES======================*/
@@ -190,12 +253,28 @@
   }
   .banner {
     height: 100vh;
-    position:relative;
+    position: relative;
     background: url("../img/back-tel.png") no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .title_info {
+    color: #f1f1f1;
+    font-family: "Wellfleet", cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+    padding-top: 40%;
+    padding-left: 5%;
+  }
+  .container p {
+    font-size: 2rem;
+    padding-left: 5%;
+    font-family: "Wellfleet", cursive;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    overflow: hidden;
   }
 }
