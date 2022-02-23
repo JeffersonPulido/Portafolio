@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   transition: 0.8s;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 /*===========NAVBAR STICKY RESPONSIVE============*/
 ::-webkit-scrollbar {
@@ -22,7 +23,7 @@
   background: rgb(0, 123, 255, 0.3);
 }
 .content {
-  max-width: 1250px;
+  max-width: 350vh;
   margin: auto;
   padding: 0px 30px;
 }
@@ -64,8 +65,9 @@
   transition: all 0.3s ease;
 }
 .menu-list li a:hover {
-  color: #ffc143;
+  color: #2196f3;
 }
+/*===================PARALLAX y BANNER=======================*/
 .banner {
   height: 100vh;
   position: relative;
@@ -123,7 +125,7 @@
 }
 .container p span.typed-text {
   font-weight: normal;
-  color: #ffc143;
+  color: #2196f3;
 }
 .container p span.cursor {
   display: inline-block;
@@ -167,7 +169,7 @@
   padding: 0.5rem;
   width: 15rem;
   height: 3rem;
-  font-family: "Wellfleet", cursive;
+  font-family: "Nunito", sans-serif;
   border: 1px solid whitesmoke;
   border-radius: 0px;
 }
@@ -178,41 +180,42 @@
   color: #888;
   border-radius: 10px;
 }
-
-/*===================PARALLAX=======================*/
-.image1 {
-  position: relative;
-  background: url("../img/universo.jpg") no-repeat fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 100vh;
-  color: whitesmoke;
+/*===================WAVE=======================*/
+.wave {
+  width: 6000px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-image: url(../img/wd1.svg);
+  background-position: bottom;
 }
 
-.image2 {
-  position: relative;
-  background: url("../img/universo2.jpg") no-repeat fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 500px;
-  color: whitesmoke;
+/*===================SECTION=======================*/
+.section1 {
+  background: #2196f3;
+  min-height: 60vh;
+  position: absolute;
 }
 
-.image3 {
-  position: relative;
-  background: url("../img/universo3.jpg") no-repeat fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 500px;
+.section1 .about_title {
+  text-align: center;
+  padding-top: 20vh;
+  font-size: 4vh;
+  font-family: "Wellfleet", cursive;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.section1 .about_descripcion {
+  display: block;
+  padding: 10vh 35vh 0vh 35vh;
+  font-size: 3vh;
+  font-family: "Nunito", sans-serif;
+  color: black;
+  text-shadow: whitesmoke 0.1em 0.1em 0.2em;
+  text-align: justify;
 }
 
 /*===============MEDIA QUERIES======================*/
@@ -296,5 +299,30 @@
     font-size: 1.2rem;
     width: 10rem;
     height: 3rem;
+  }
+  .section1 {
+    background: #2196f3;
+    min-height: 60vh;
+    position: absolute;
+  }
+  .section1 .about_title {
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 4vh;
+    font-family: "Wellfleet", cursive;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .section1 .about_descripcion {
+    display: block;
+    padding: 10vh 5vh 0vh 5vh;
+    font-size: 2.5vh;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    text-shadow: whitesmoke 0.1em 0.1em 0.2em;
+    text-align: justify;
   }
 }
