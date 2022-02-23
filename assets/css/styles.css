@@ -189,8 +189,7 @@
   background-image: url(../img/wd1.svg);
   background-position: bottom;
 }
-
-/*===================SECTION=======================*/
+/*===================SECTION 1=======================*/
 .section1 {
   background: #2196f3;
   min-height: 60vh;
@@ -217,9 +216,102 @@
   text-shadow: whitesmoke 0.1em 0.1em 0.2em;
   text-align: justify;
 }
+/*===================SECTION 2=======================*/
+.section2 {
+  background: white;
+  min-height: 60vh;
+  padding-top: 80vh;
+}
+.section2 .about_title {
+  text-align: center;
+  font-size: 4vh;
+  font-family: "Wellfleet", cursive;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 0.5px black;
+  padding-bottom: 2%;
+}
+.container__article {
+  max-width: 1200px;
+  padding: 0px 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.container__article .box__article {
+  width: 250px;
+  height: 250px;
+  background: #eff3f5;
+  margin: 20px;
+}
+/*==================FOOTER==========================*/
+footer {
+  width: 100%;
+  padding-bottom: 3vh;
+  font-family: "Nunito", sans-serif;
+  *background-color: var(--color-esqueleto);
+  background-image: url("../img/background-footer.svg");
+  background-size: cover;
+}
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+}
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.box__footer .logo img {
+  width: 180px;
+}
+.box__footer .terms {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+.box__footer h2 {
+  margin-bottom: 30px;
+  color: #242424;
+  font-weight: 700;
+}
+.box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+.box__footer a:hover {
+  opacity: 0.8;
+}
+.box__footer a .fab {
+  font-size: 20px;
+}
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+.box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+.box__copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+}
 /*===============MEDIA QUERIES======================*/
-
 @media (max-width: 868px) {
   body.disabledScroll {
     overflow: hidden;
