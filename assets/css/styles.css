@@ -233,6 +233,7 @@
 .filter-controls{
   text-align: center;
   background-color: transparent;
+  top: auto;
 }
 /*==================FOOTER==========================*/
 footer {
@@ -392,7 +393,6 @@ footer {
     letter-spacing: 4px;
     -webkit-text-stroke: 0.5px black;
   }
-
   .section1 .about_descripcion {
     display: block;
     padding: 10vh 5vh 0vh 5vh;
@@ -404,7 +404,6 @@ footer {
   }
   .section2 .about_title {
     text-align: center;
-    padding-top: 2vh;
     font-size: 4vh;
     font-family: "Wellfleet", cursive;
     color: white;
@@ -412,9 +411,5 @@ footer {
     letter-spacing: 4px;
     -webkit-text-stroke: 0.5px black;
   }
-  .filter-controls{
-    padding-top: 50%;
-    text-align: center;
-    background-color: transparent;
-  }
+
 }

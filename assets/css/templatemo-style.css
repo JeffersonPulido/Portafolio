@@ -1,7 +1,11 @@
 .no-js .slides > li:first-child {
   display: block;
 }
-
+#Grid{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  transition: 0.5s;
+}
 #lightbox {
   cursor: pointer;
   position: fixed;
@@ -18,7 +22,7 @@
 #lightbox img {
   display: block;
   position: absolute;
-  border: 5px solid #fff;
+  border: 2px solid #fff;
   box-shadow: 0 0 20px #000;
   border-radius: 1px;
 }
@@ -135,28 +139,32 @@ body.blurred > * {
   cursor: pointer;
 }
 .filter ul li.active {
-  color: #00d9ff;
+  color: #2196f3;
+  font-weight: bold;
 }
 .products {
   background-size: cover;
-  padding: 120px 0 80px 0;
-  margin-top: -40px;
+  padding: 120px 150px 80px 150px;
+
 }
 .products .thumb-p {
+  margin: 15px;
   overflow: hidden;
   position: relative;
+  display: flex;
   -webkit-border-radius: 6px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 6px;
   -moz-background-clip: padding;
   border-radius: 6px;
   background-clip: padding-box;
+  box-shadow: 6px 6px 6px rgb(49, 49, 49);
 }
 .products .thumb-p img {
   width: 100%;
 }
 .products .thumb-p .overlay-p {
-  background-color: #39c8e2;
+  background-color: #2195f39d;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -197,6 +205,7 @@ body.blurred > * {
 .products .content-p {
   margin-bottom: 40px;
   font-family: "Nunito", sans-serif;
+  text-align: center;
 }
 .products .content-p h4 {
   font-size: 16px;
@@ -205,6 +214,8 @@ body.blurred > * {
   text-transform: uppercase;
   font-family: "Nunito", sans-serif;
   margin: 15px 0 5px 0;
+  font-weight: bold;
+  text-align: center;
 }
 .products .content-p span {
   font-size: 12px;
@@ -214,6 +225,7 @@ body.blurred > * {
 }
 #Grid .mix {
   display: none;
+  align-items: center;
 }
 /*  Medium devices (desktops, 992px and up)  */
 @media (max-width: 992px) {
@@ -230,11 +242,10 @@ body.blurred > * {
     background-position: left;
     margin-top: -20px;
   }
-  .contact form {
-    margin-top: 60px;
-  }
-  .product-left {
-    color: #fff;
+  #Grid{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    transition: 0.2s;
   }
 }
 /* ==========================================================================
