@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <!--========== ICO ==========-->
     <link rel="shortcut icon" href="./assets/img/logo_transparent.ico" />
-    <!--========== JS ==========-->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="./assets/css/templatemo-style.css" />
+    <script src="./assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <!--========== TITLE ==========-->
     <title>Jefferson Pulido | Portafolio</title>
   </head>
@@ -33,10 +34,10 @@
           </div>
           <li><a href="#">Inicio</a></li>
           <li><a href="#About">Acerca de mi</a></li>
-          <li><a href="#Project">Proyectos</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Testimonios</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#Projects">Proyectos</a></li>
+          <li><a href="#Skills">Habilidades</a></li>
+          <li><a href="#Testimonials">Testimonios</a></li>
+          <li><a href="#Contact">Contacto</a></li>
         </ul>
         <div class="icon menu-btn">
           <i class="fas fa-bars"></i>
@@ -46,7 +47,7 @@
     <!--========== CONTENT ==========-->
     <div class="banner">
       <h1 class="title_info">Jefferson Pulido</h1>
-      <div class="container">
+      <div class="containert">
         <p>
           I am <span class="typed-text"></span
           ><span class="cursor">&nbsp;</span>
@@ -56,12 +57,11 @@
         href="https://jeffersonpulido-cv.netlify.app/"
         class="btn-neon"
         target="_blank"
+        >Ver CV</a
       >
-        Ver CV
-      </a>
     </div>
     <!--========== SECTION 1 ==========-->
-    <div class="section1" id="About">
+    <section class="section1" id="About">
       <h1 class="about_title">Acerca de mi</h1>
       <h2 class="about_descripcion">
         Soy desarrollador Full Stack Junior con conocimientos básicos en POO,
@@ -70,63 +70,125 @@
         gusta aprender de diferentes áreas y buscar las mejores soluciones al
         problema.
       </h2>
-    </div>
+    </section>
     <!--========== WAVE ==========-->
     <div class="wave"></div>
     <!--========== SECTION 2 ==========-->
-    <div class="section2" id="Project">
+    <section class="section2" >
       <h1 class="about_title">Proyectos</h1>
-      <div class="container__article">
-        <div class="box__article">
-          <img src="./assets/img/Caratula1.png" alt="" />
-        </div>
-        <div class="box__article">
-          <img src="./assets/img/Caratula2.png" alt="" />
-        </div>
-        <div class="box__article">
-          <img src="./assets/img/Caratula3.png" alt="" />
-        </div>
-        <div class="box__article">
-          <img src="./assets/img/Caratula4.png" alt="" />
+      <div class="filter" id="Projects">
+        <div class="container" >
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <ul class="filter-controls controls">
+                <li class="filter active" data-filter="mix">Todos</li>
+                <li class="filter" data-filter="category-1">PHP y Laravel</li>
+                <li class="filter" data-filter="category-2">NodeJS</li>
+                <li class="filter" data-filter="category-3">JAVA</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="products">
+        <div class="container">
+          <div class="row">
+            <div id="Grid">
+              <div class="mix category-2 col-md-3 col-sm-6">
+                <div class="thumb-p">
+                  <img src="./assets/img/Caratula1.png" alt="" />
+                  <div class="overlay-p">
+                    <a href="./assets/img/Caratula1.png" data-rel="lightbox"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+                <div class="content-p">
+                  <h4>Supermarket desarrollado con JAVA en Framework Eclipse y MySQL</h4>
+                  <span>MinTIC y Universidad El Bosque</span>
+                </div>
+              </div>
+              <div class="mix category-2 col-md-3 col-sm-6">
+                <div class="thumb-p">
+                  <img src="./assets/img/Caratula2.png" alt="" />
+                  <div class="overlay-p">
+                    <a href="./assets/img/Caratula2.png" data-rel="lightbox"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+                <div class="content-p">
+                  <h4>Supermarket V2 desarrollado con NodeJS y MongoDB</h4>
+                  <span>MinTIC y Universidad El Bosque</span>
+                </div>
+              </div>
+              <div class="mix category-3 col-md-3 col-sm-6">
+                <div class="thumb-p">
+                  <img src="./assets/img/Caratula3.png" alt="" />
+                  <div class="overlay-p">
+                    <a href="./assets/img/Caratula3.png" data-rel="lightbox"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+                <div class="content-p">
+                  <h4>GreenGround E-Commerce desarrollado en JAVA con Framework NETBEANS y MySQL</h4>
+                  <span>Servicio Nacional de Aprendizaje - ADSI</span>
+                </div>
+              </div>
+              <div class="mix category-1 col-md-3 col-sm-6">
+                <div class="thumb-p">
+                  <img src="./assets/img/Caratula4.png" alt="" />
+                  <div class="overlay-p">
+                    <a href="./assets/img/Caratula4.png" data-rel="lightbox"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+                <div class="content-p">
+                  <h4>Sistema Interno de Inventario Tecnologico desarrollado en PHP y MYSQL</h4>
+                  <span>Agroinsumos San Miguel S.A.S.</span>
+                </div>
+              </div>
+              <div class="mix category-1 col-md-3 col-sm-6">
+                <div class="thumb-p">
+                  <img src="./assets/img/Caratula5.png" alt="" />
+                  <div class="overlay-p">
+                    <a href="./assets/img/Caratula5.png" data-rel="lightbox"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+                <div class="content-p">
+                  <h4>FRONTEND LAIKA PAGE Desarrollado en laravel</h4>
+                  <span>Personal</span>
+                </div>
+              </div>           
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--========== WAVE FOOTER ==========-->
     <footer>
       <div class="container__footer">
         <div class="box__footer">
-          <div class="terms">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-            reiciendis et quasi aut facere vitae vero. Inventore, minus ab
-            voluptate modi repellat, pariatur tempora quisquam, debitis facilis
-            explicabo voluptatem. A.
-          </div>
+          <h2>Capacidades</h2>
+          <a>Desarrollo Web Responsive</a>
+          <a>Buenas practicas programacion</a>
+          <a>IOS Desarrollo</a>
+          <a>Android Desarrollo</a>
         </div>
         <div class="box__footer">
-          <h2>Soluciones</h2>
-          <a href="#">App Desarrollo</a>
-          <a href="#">App Marketing</a>
-          <a href="#">IOS Desarrollo</a>
-          <a href="#">Android Desarrollo</a>
-        </div>
-        <div class="box__footer">
-          <h2>Compañia</h2>
-          <a href="#">Acercda de</a>
-          <a href="#">Trabajos</a>
-          <a href="#">Procesos</a>
-          <a href="#">Servicios</a>
+          <h2>Navegación</h2>
+          <a href="#About">Acerca de</a>
+          <a href="#Projects">Proyectos</a>
+          <a href="#Skills">Habilidades</a>
+          <a href="#Testimonials">Testimonio</a>
         </div>
         <div class="box__footer">
           <h2>Redes Sociales</h2>
-          <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
-          <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-          <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-          <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+          <a href="https://www.linkedin.com/in/jeffersonpulido/" target="_blank"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://github.com/JeffersonPulido" target="_blank"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
         </div>
       </div>
       <div class="box__copyright">
         <hr />
-        <p>Todos los derechos reservados © 2021 <b>MagtimusPro</b></p>
+        <p>Todos los derechos reservados © 2022 <b>JPulido Dev</b></p>
       </div>
     </footer>
     <!--========== SCRIPT NAVBAR ==========-->
@@ -157,5 +219,9 @@
     </script>
     <!--========== SCRIPT TEXT TYPED ==========-->
     <script src="./assets/js/typed.js"></script>
+    <!--========== SCRIPT PROJECTS ==========-->
+    <script src="./assets/js/vendor/jquery-1.10.1.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
