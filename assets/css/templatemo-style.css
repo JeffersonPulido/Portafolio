@@ -125,7 +125,6 @@ body.blurred > * {
   background-color: transparent;
   background-size: cover;
   padding: 10px 0;
-  margin-top: -60px;
 }
 .filter ul {
   padding: 0;
@@ -144,7 +143,7 @@ body.blurred > * {
 }
 .products {
   background-size: cover;
-  padding: 120px 150px 80px 150px;
+  padding: 80px 150px 80px 150px;
 
 }
 .products .thumb-p {
