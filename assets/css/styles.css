@@ -198,6 +198,15 @@
   background-image: url(../img/wd2.svg);
   background-position: bottom;
 }
+/*===================WAVE3=======================*/
+.wave3 {
+  width: 6000px;
+  height: 40%;
+  position: absolute;
+  left: 0;
+  background-image: url(../img/wd3.svg);
+  background-position: bottom;
+}
 /*===================SECTION 1=======================*/
 .section1 {
   background: #2196f3;
@@ -251,7 +260,25 @@
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 30vh;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
+}
+/*===================SECTION 4=======================*/
+.section4 {
+  min-height: 60vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 25vh;
+  padding-bottom: 2%;
+}
+.section4 .about_title {
+  text-align: center;
+  font-size: 4vh;
+  font-family: "Wellfleet", cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  padding-bottom: 4%;
 }
 /*==================FOOTER==========================*/
 footer {
