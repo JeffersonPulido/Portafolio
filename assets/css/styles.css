@@ -90,7 +90,7 @@
   text-align: justify;
 }
 .icon {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -189,6 +189,15 @@
   background-image: url(../img/wd1.svg);
   background-position: bottom;
 }
+/*===================WAVE2=======================*/
+.wave2 {
+  width: 6000px;
+  height: 40%;
+  position: absolute;
+  left: 0;
+  background-image: url(../img/wd2.svg);
+  background-position: bottom;
+}
 /*===================SECTION 1=======================*/
 .section1 {
   background: #2196f3;
@@ -234,6 +243,15 @@
   text-align: center;
   background-color: transparent;
   top: auto;
+}
+/*===================SECTION 3=======================*/
+.section3 {
+  background: #161616;
+  min-height: 60vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 30vh;
+  padding-bottom: 5%;
 }
 /*==================FOOTER==========================*/
 footer {
@@ -411,5 +429,140 @@ footer {
     letter-spacing: 4px;
     -webkit-text-stroke: 0.5px black;
   }
-
+  .filter-controls{
+    text-align: center;
+    background-color: transparent;
+    top: auto;
+  }
+  .filter ul li {
+    display: inline-block;
+    margin: 0 20px;
+    color: rgb(0, 0, 0);
+    cursor: crosshair;
+  }
+}
+@media (max-width: 600px) {
+  body.disabledScroll {
+    overflow: hidden;
+  }
+  .icon {
+    display: block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    z-index: 9;
+  }
+  .icon.cancel-btn {
+    display: none;
+    right: 50px;
+    top: 60px;
+  }
+  .icon.cancel-btn.show {
+    display: block;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .navbar .menu-list {
+    position: fixed;
+    top: 5%;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #1b1b1b;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    clip-path: circle(25px at calc(100% - 55px) calc(0% + 50px));
+    transition: all 0.3s ease;
+  }
+  .navbar.sticky .menu-list {
+    clip-path: circle(25px at calc(100% - 55px) calc(0% + 35px));
+  }
+  .navbar .menu-list.active {
+    clip-path: circle(75%);
+  }
+  .navbar .menu-list li {
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a {
+    font-size: 23px;
+  }
+  .banner {
+    height: 100vh;
+    position: relative;
+    background: url("../img/back-tel.png") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .title_info {
+    color: #f1f1f1;
+    font-family: "Wellfleet", cursive;
+    letter-spacing: 3px;
+    font-size: 40px;
+    padding-top: 40%;
+    padding-left: 5%;
+  }
+  .containert p {
+    font-size: 1.5rem;
+    padding-left: 5%;
+    font-family: "Wellfleet", cursive;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+  .btn-neon {
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 3rem;
+  }
+  .section1 {
+    background: #2196f3;
+    min-height: 60vh;
+    position: absolute;
+  }
+  .section1 .about_title {
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 4vh;
+    font-family: "Wellfleet", cursive;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 0.5px black;
+  }
+  .section1 .about_descripcion {
+    display: block;
+    padding: 10vh 5vh 0vh 5vh;
+    font-size: 2vh;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    text-shadow: whitesmoke 0.1em 0.1em 0.2em;
+    text-align: justify;
+  }
+  .section2 .about_title {
+    text-align: center;
+    font-size: 4vh;
+    font-family: "Wellfleet", cursive;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 0.5px black;
+  }
+  .filter-controls{
+    text-align: center;
+    background-color: transparent;
+    top: auto;
+  }
+  .filter ul li {
+    display: inline-block;
+    margin: 0 20px;
+    color: rgb(0, 0, 0);
+    cursor: crosshair;
+  }
 }

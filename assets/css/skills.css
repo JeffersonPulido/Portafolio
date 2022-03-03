@@ -1,16 +1,26 @@
-.skills {
-  width: 50%;
-  transition: 0.8s;
+span{
+  color: rgb(255, 255, 255);
 }
-.titleskills{
+.container_skills{
+  float: left;
+  width: 50%;
+  padding-right: 5%;
+}
+.container_habilities{
+  float: right;
+  width: 50%;
+  padding-left: 5%;
+}
+.titleskills {
   margin-bottom: 50px;
   font-size: 33px;
   font-weight: bold;
   font-family: "Wellfleet", cursive;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
   letter-spacing: 4px;
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  text-align: center;
 }
 .skills:not(:last-child) {
   margin-bottom: 30px;
@@ -31,15 +41,13 @@
   width: 0;
   height: 9px;
   border-radius: 10px;
-  background-color: #2196f3;
+  background-color: #64b7fa;
+  box-shadow: 0 0 5px #64b7fa, 0 0 5px #64b7fa, 0 0 5px #64b7fa;
 }
 #html-bar {
   animation: html-fill 2s forwards;
 }
-.container_skills {
-  left: 30%;
-  position: relative;
-}
+/*=============SKILLS===============*/
 @keyframes html-fill {
   100% {
     width: 90%;
@@ -66,7 +74,7 @@
 }
 @keyframes bootstrap-fill {
   100% {
-    width: 58%;
+    width: 60%;
   }
 }
 #php-bar {
@@ -116,4 +124,85 @@
   100% {
     width: 80%;
   }
+}
+/*=============HABILITIES===============*/
+@keyframes responsability-fill {
+  100% {
+    width: 100%;
+  }
+}
+#responsability-bar {
+  animation: responsability-fill 2s forwards;
+}
+@keyframes puntuality-fill {
+  100% {
+    width: 90%;
+  }
+}
+#puntuality-bar {
+  animation: puntuality-fill 2s forwards;
+}
+@keyframes creative-fill {
+  100% {
+    width: 80%;
+  }
+}
+#creative-bar {
+  animation: creative-fill 2s forwards;
+}
+@keyframes comunication-fill {
+  100% {
+    width: 80%;
+  }
+}
+#comunication-bar {
+  animation: comunication-fill 2s forwards;
+}
+@keyframes work-fill {
+  100% {
+    width: 80%;
+  }
+}
+#work-bar {
+  animation: work-fill 2s forwards;
+}
+@keyframes autonomy-fill {
+  100% {
+    width: 80%;
+  }
+}
+#autonomy-bar {
+  animation: autonomy-fill 2s forwards;
+}
+@keyframes learn-fill {
+  100% {
+    width: 100%;
+  }
+}
+#learn-bar {
+  animation: learn-fill 2s forwards;
+}
+@keyframes dedication-fill {
+  100% {
+    width: 90%;
+  }
+}
+#dedication-bar {
+  animation: dedication-fill 2s forwards;
+}
+@keyframes organitation-fill {
+  100% {
+    width: 100%;
+  }
+}
+#organitation-bar {
+  animation: organitation-fill 2s forwards;
+}
+@keyframes presure-fill {
+  100% {
+    width: 70%;
+  }
+}
+#presure-bar {
+  animation: presure-fill 2s forwards;
 }
