@@ -269,8 +269,30 @@
   padding-right: 15%;
   padding-top: 25vh;
   padding-bottom: 2%;
+  align-items: center;
+  text-align: center;
 }
 .section4 .about_title {
+  text-align: center;
+  font-size: 4vh;
+  font-family: "Wellfleet", cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  padding-bottom: 4%;
+}
+/*===================SECTION 5=======================*/
+.section5 {
+  min-height: 60vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 15vh;
+  padding-bottom: 2%;
+  align-items: center;
+  text-align: center;
+}
+.section5 .about_title {
   text-align: center;
   font-size: 4vh;
   font-family: "Wellfleet", cursive;
@@ -451,10 +473,10 @@ footer {
     text-align: center;
     font-size: 4vh;
     font-family: "Wellfleet", cursive;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
     letter-spacing: 4px;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   }
   .filter-controls{
     text-align: center;
@@ -473,6 +495,13 @@ footer {
     padding-right: 5%;
     padding-top: 30vh;
     padding-bottom: 5%;
+  }
+  .section4 {
+    min-height: 60vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 25vh;
+    padding-bottom: 2%;
   }
 }
 @media (max-width: 600px) {
@@ -583,10 +612,10 @@ footer {
     text-align: center;
     font-size: 4vh;
     font-family: "Wellfleet", cursive;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
     letter-spacing: 4px;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   }
   .filter-controls{
     text-align: center;
