@@ -206,3 +206,21 @@ span{
 #presure-bar {
   animation: presure-fill 2s forwards;
 }
+/*=========MEDIA QUERIES========*/
+@media (max-width: 600px) {
+  .titleskills {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Wellfleet", cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    text-align: center;
+  }
+  span{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+}

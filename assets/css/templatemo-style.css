@@ -231,6 +231,10 @@ body.blurred > * {
   .slider-button {
     display: none;
   }
+  .products {
+    background-size: cover;
+    padding: 0 0 0 0;
+  }
 }
 /*  Small devices (tablets, 768px and up)  */
 @media (max-width: 768px) {
@@ -245,6 +249,10 @@ body.blurred > * {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     transition: 0.2s;
+  }
+  .products {
+    background-size: cover;
+    padding: 0 0 0 0;
   }
 }
 /* ==========================================================================
