@@ -285,12 +285,8 @@
 /*===================SECTION 5=======================*/
 .section5 {
   min-height: 60vh;
-  padding-left: 15%;
-  padding-right: 15%;
   padding-top: 15vh;
   padding-bottom: 2%;
-  align-items: center;
-  text-align: center;
 }
 .section5 .about_title {
   text-align: center;

@@ -31,26 +31,13 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 80px 10% 15%;
+  padding: 50px 10% 15%;
 }
 
 .cards figcaption:hover {
     background-color: #161616;
     cursor: pointer;
   }
-
-.cards figcaption:before {
-  font-family: "FontAwesome";
-  content: "\201C";
-  position: absolute;
-  font-size: 80px;
-  opacity: 0.35;
-  font-style: normal;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  top: 0px;
-  left: 50%;
-}
 
 .cards blockquote {
   padding: 0;

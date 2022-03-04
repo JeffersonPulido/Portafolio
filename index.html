@@ -10,7 +10,8 @@
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/skills.css" />
-    <link rel="stylesheet" href="./assets/css/Carusel.css" />
+    <link rel="stylesheet" href="./assets/css/Test.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
     <!--========== ICO ==========-->
     <link rel="shortcut icon" href="./assets/img/logo_transparent.ico" />
     <!-- Main Styles -->
@@ -376,7 +377,7 @@
         <img src="./assets/img/t1.jpg" alt="profile-sample2" />
         <figcaption>
           <blockquote>
-            <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+            <p>Conozco tu trabajo y sé que manejas código limpio e indexado, tiene buena perspectiva de solución de problemas y una lógica increíble.</p>
           </blockquote>
           <h3>Yeison Marquez</h3>
           <h5>Full Stack Developer</h5>
@@ -385,7 +386,7 @@
       <figure class="cards"><img src="./assets/img/t2.jpg" alt="profile-sample7" />
         <figcaption>
           <blockquote>
-            <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+            <p>Es una persona autónoma y proactiva, Soluciona inconvenientes y mejora la efectividad de procesos para aumentar la calidad de un sistema compuesto.</p>
           </blockquote>
           <h3>Cristian Sanchez</h3>
           <h5>Arquitecto</h5>
@@ -394,17 +395,24 @@
       <figure class="cards"><img src="./assets/img/t3.jpg" alt="profile-sample6" />
         <figcaption>
           <blockquote>
-            <p>The only skills I have the patience to learn are those that have no real application in life. </p>
+            <p>Es una persona responsable y autónomo, apto para afrontar los retos más altos y encontrar la mejor solución, además está dispuesto a aprender y dejarse enseñar.</p>
           </blockquote>
-          <h3>Fernando Molano</h3>
-          <h5>Contador</h5>
+          <h3>Fernando Bermudez</h3>
+          <h5>Ingeniero de Sistemas</h5>
         </figcaption>
       </figure>
     </section>
     <!--========== SECTION 5 CONTACT ==========-->
     <section class="section5" id="Contact">
       <h1 class="about_title">Contacto</h1>
-      
+      <div class="card_contact">
+        <h1 class="title_contact">Jefferson Pulido<span class="title_span">developer junior</span></h1>
+        <ul class="contact_ul">
+          <li class="contact_li">+57 310 215 6205</li>
+          <li class="contact_li">jeffersonpulido55@gmail.com</li>
+          <li class="contact_li">Colombia</li>
+        </ul>
+      </div>
     </section>
     <!--========== WAVE FOOTER ==========-->
     <footer>
@@ -466,7 +474,15 @@
           : navbar.classList.remove("sticky");
       };
     </script>
-    <!--========== SCRIPT TEXT TYPED ==========-->
+  <!--========== SCRIPT TEXT TYPED ==========-->
+    <script>
+      $('button').click(function(){
+        $('button').toggleClass('active');
+        $('.title').toggleClass('active');
+        $('nav').toggleClass('active');
+      });
+    </script>
+  <!--========== SCRIPT TEXT TYPED ==========-->
     <script src="./assets/js/typed.js"></script>
     <!--========== SCRIPT PROJECTS ==========-->
     <script src="./assets/js/vendor/jquery-1.10.1.min.js"></script>
