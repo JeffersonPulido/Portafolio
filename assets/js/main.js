@@ -35,31 +35,12 @@
 /* =================== BUTTON UP ========================= */
 // Scroll up
 
-document.getElementById("button-up").addEventListener("click", scrollUp);
+$(document).ready(function(){ irArriba(); }); //Hacia arriba
 
-function scrollUp(){
-
-    var currentScroll = document.documentElement.scrollTop;
-
-    if (currentScroll > 0){
-        window.requestAnimationFrame(scrollUp);
-        window.scrollTo (0, currentScroll - (currentScroll / 5));
-    }
-}
-
-
-///
-
-buttonUp = document.getElementById("button-up");
-
-window.onscroll = function(){
-
-    var scroll = document.documentElement.scrollTop;
-
-    if (scroll > 500){
-        buttonUp.style.transform = "scale(1)";
-    }else if(scroll < 500){
-        buttonUp.style.transform = "scale(0)";
-    }
-
+function irArriba(){
+  $('.ir-arriba').click(function(){ $('body,html').animate({ scrollTop:'0px' },1000); });
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 0){ $('.ir-arriba').slideDown(1000); }else{ $('.ir-arriba').slideUp(1000); }
+  });
+  $('.ir-abajo').click(function(){ $('body,html').animate({ scrollTop:'1000px' },1000); });
 }

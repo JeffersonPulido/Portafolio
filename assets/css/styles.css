@@ -362,27 +362,26 @@ footer {
   background-color: #7a7a7a;
 }
 /*=====================BUTTON PU====================*/
-#button-up{
-  width: 60px;
-  height: 60px;
-  background: #2196f3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  border-radius: 50%;
-  font-size: 20px;
-  position: fixed;
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:30px;
+  color:black;
+  cursor:pointer;
+  position:fixed;
   bottom: 100px;
-  right: 50px;
-  cursor: pointer;
-  border: 4px solid transparent;
+  right: 43px;
+  z-index:2;
+  transition: .3s ease;
 }
-#button-up a{
-  color: white;
+.fa-solid{
+  color: #ffffff;
 }
-#button-up:hover{
-  transform: scale(1.1);
+.fa-stack-2x{
+  color: #2196f3;
+}
+.fa-stack-2x:hover{
+  color: #066cbe;
 }
 /*===============MEDIA QUERIES======================*/
 @media (max-width: 868px) {
@@ -649,3 +648,4 @@ footer {
   }
 
 }
+
