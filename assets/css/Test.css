@@ -62,3 +62,13 @@
   color: #bbb;
   letter-spacing: 1px;
 }
+@media (max-width: 868px){
+  .cards figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15% 5% 5%;
+  }
+}
