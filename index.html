@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./assets/css/skills.css" />
     <link rel="stylesheet" href="./assets/css/Test.css" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/css/whats.css" />
+    <link rel="stylesheet" href="./assets/css/whats2.css" />
     <!--========== ICO ==========-->
     <link rel="shortcut icon" href="./assets/img/logo_transparent.ico" />
     <!-- Main Styles -->
@@ -416,7 +418,30 @@
     </section>
     <!--========== BUTTON UP ==========-->
     <div id="button-up">
-      <a href="#"><i class="fas fa-chevron-up"></i></a>
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--========== WHATSAPP EMERGENTE ==========-->
+    <div class="nav-bottom">
+      <div class="popup-whatsapp fadeIn">
+        <div class="content-whatsapp -top">
+          <button type="button" class="closePopup">
+            <i class="fas fa-times"></i>
+          </button> 		   
+          <p class="text-whats">Hola, ¿te gustaría contactarme? </p>
+        </div>
+        <div class="content-whatsapp -bottom">
+          <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+          <button class="send-msPopup" id="send-btn" type="button">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+      <button type="button" id="whats-openPopup" class="whatsapp-button">
+        <div class="float" >
+          <i class="fa-brands fa-whatsapp my-float"></i>
+        </div>
+      </button>
+      <div class="circle-anime"></div>
     </div>
     <!--========== WAVE AND FOOTER ==========-->
     <footer>
@@ -486,7 +511,9 @@
         $('nav').toggleClass('active');
       });
     </script>
-  <!--========== SCRIPT TEXT TYPED ==========-->
+    <!--========== SCRIPT WHATSAPP==========-->
+    <script src="./assets/js/script2.js"></script>
+    <!--========== SCRIPT TEXT TYPED ==========-->
     <script src="./assets/js/typed.js"></script>
     <!--========== SCRIPT PROJECTS ==========-->
     <script src="./assets/js/vendor/jquery-1.10.1.min.js"></script>

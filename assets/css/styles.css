@@ -33,7 +33,7 @@
   width: 100%;
   padding: 25px 0;
   transition: all 0.3s ease;
-  
+  background-color: #141414c4;
 }
 .navbar.sticky {
   padding: 8px 0;
