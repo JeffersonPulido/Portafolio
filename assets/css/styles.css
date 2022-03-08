@@ -222,7 +222,6 @@
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
   letter-spacing: 4px;
-  -webkit-text-stroke: 0.5px black;
 }
 .section1 .about_descripcion {
   display: block;
@@ -246,7 +245,6 @@
   color: rgb(0, 0, 0);
   text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
   letter-spacing: 4px;
-  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   padding-bottom: 4%;
 }
 .filter-controls{
@@ -280,7 +278,6 @@
   color: rgb(0, 0, 0);
   text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
   letter-spacing: 4px;
-  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   padding-bottom: 4%;
 }
 /*===================SECTION 5=======================*/
@@ -296,7 +293,6 @@
   color: rgb(0, 0, 0);
   text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
   letter-spacing: 4px;
-  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   padding-bottom: 4%;
 }
 /*==================FOOTER==========================*/
@@ -477,7 +473,6 @@ footer {
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
     letter-spacing: 4px;
-    -webkit-text-stroke: 0.5px black;
   }
   .section1 .about_descripcion {
     display: block;
@@ -495,7 +490,6 @@ footer {
     color: rgb(0, 0, 0);
     text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
     letter-spacing: 4px;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   }
   .filter-controls{
     text-align: center;
@@ -616,7 +610,6 @@ footer {
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
     letter-spacing: 4px;
-    -webkit-text-stroke: 0.5px black;
   }
   .section1 .about_descripcion {
     display: block;
@@ -634,7 +627,6 @@ footer {
     color: rgb(0, 0, 0);
     text-shadow: rgb(148, 148, 148) 0.1em 0.1em 0.2em;
     letter-spacing: 4px;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   }
   .filter-controls{
     text-align: center;
