@@ -1,528 +1,719 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--========== BOX ICONS ==========-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <!--========== CSS ==========-->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/skills.css" />
-    <link rel="stylesheet" href="./assets/css/Test.css" />
-    <link rel="stylesheet" href="./assets/css/contact.css" />
-    <link rel="stylesheet" href="./assets/css/whats.css" />
-    <link rel="stylesheet" href="./assets/css/whats2.css" />
-    <!--========== ICO ==========-->
-    <link rel="shortcut icon" href="./assets/img/logo_transparent.ico" />
-    <!-- Main Styles -->
-    <link rel="stylesheet" href="./assets/css/templatemo-style.css" />
-    <script src="./assets/js/vendor/modernizr-2.6.2.min.js"></script>
-    <!--========== TITLE ==========-->
-    <title>Jefferson Pulido | Portafolio</title>
-  </head>
-  <body>
-    <!--========== NAV BAR ==========-->
-    <nav class="navbar">
-      <div class="content">
-        <div class="logo">
-          <a href="#"><img src="./assets/img/logo_transparent.png" alt="Logo"/></a>
-        </div>
-        <ul class="menu-list">
-          <div class="icon cancel-btn">
-            <i class="fa-solid fa-xmark"></i>
-          </div>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#About">Acerca de mi</a></li>
-          <li><a href="#Projects">Proyectos</a></li>
-          <li><a href="#Skills">Habilidades</a></li>
-          <li><a href="#Testimonials">Testimonios</a></li>
-          <li><a href="#Contact">Contacto</a></li>
-        </ul>
-        <div class="icon menu-btn">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </div>
-    </nav>
-    <!--========== CONTENT ==========-->
-    <section class="banner">
-      <h1 class="title_info">Jefferson Pulido</h1>
-      <div class="containert">
-        <p>
-          I am <span class="typed-text"></span
-          ><span class="cursor">&nbsp;</span>
-        </p>
-      </div>
-      <a
-        href="https://jeffersonpulido-cv.netlify.app/"
-        class="btn-neon"
-        target="_blank"
-        >Ver CV</a
-      >
-    </section>
-    <!--========== SECTION 1 ABOUT ==========-->
-    <section class="section1" id="About">
-      <h1 class="about_title">Acerca de mi</h1>
-      <h2 class="about_descripcion">
-        Soy desarrollador Full Stack Junior con conocimientos básicos en POO,
-        BDO, PHP, JAVA y otras tecnologías, además de servidores. Me considero
-        responsable y autónomo, Me caracterizo por ser autodidacta y líder, me
-        gusta aprender de diferentes áreas y buscar las mejores soluciones al
-        problema.
-      </h2>
-    </section>
-    <!--========== WAVE ==========-->
-    <div class="wave"></div>
-    <!--========== SECTION 2 PROJECTS ==========-->
-    <section class="section2">
-      <h1 class="about_title">Proyectos</h1>
-      <div class="filter" id="Projects">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <ul class="filter-controls controls">
-                <li class="filter active" data-filter="mix">Todos</li>
-                <li class="filter" data-filter="category-1">PHP y Laravel</li>
-                <li class="filter" data-filter="category-2">NodeJS</li>
-                <li class="filter" data-filter="category-3">JAVA</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="products">
-        <div class="container">
-          <div class="row">
-            <div id="Grid">
-              <div class="mix category-2 col-md-3 col-sm-6">
-                <div class="thumb-p">
-                  <img src="./assets/img/Caratula1.png" alt="" />
-                  <div class="overlay-p">
-                    <a href="./assets/img/Caratula1.png" data-rel="lightbox"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="content-p">
-                  <h4>
-                    Supermarket desarrollado con JAVA en Framework Eclipse y
-                    MySQL
-                  </h4>
-                  <span>MinTIC y Universidad El Bosque</span>
-                </div>
-              </div>
-              <div class="mix category-2 col-md-3 col-sm-6">
-                <div class="thumb-p">
-                  <img src="./assets/img/Caratula2.png" alt="" />
-                  <div class="overlay-p">
-                    <a href="./assets/img/Caratula2.png" data-rel="lightbox"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="content-p">
-                  <h4>Supermarket V2 desarrollado con NodeJS y MongoDB</h4>
-                  <span>MinTIC y Universidad El Bosque</span>
-                </div>
-              </div>
-              <div class="mix category-3 col-md-3 col-sm-6">
-                <div class="thumb-p">
-                  <img src="./assets/img/Caratula3.png" alt="" />
-                  <div class="overlay-p">
-                    <a href="./assets/img/Caratula3.png" data-rel="lightbox"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="content-p">
-                  <h4>
-                    GreenGround E-Commerce desarrollado en JAVA con Framework
-                    NETBEANS y MySQL
-                  </h4>
-                  <span>Servicio Nacional de Aprendizaje - ADSI</span>
-                </div>
-              </div>
-              <div class="mix category-1 col-md-3 col-sm-6">
-                <div class="thumb-p">
-                  <img src="./assets/img/Caratula4.png" alt="" />
-                  <div class="overlay-p">
-                    <a href="./assets/img/Caratula4.png" data-rel="lightbox"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="content-p">
-                  <h4>
-                    Sistema Interno de Inventario Tecnologico desarrollado en
-                    PHP y MYSQL
-                  </h4>
-                  <span>Agroinsumos San Miguel S.A.S.</span>
-                </div>
-              </div>
-              <div class="mix category-1 col-md-3 col-sm-6">
-                <div class="thumb-p">
-                  <img src="./assets/img/Caratula5.png" alt="" />
-                  <div class="overlay-p">
-                    <a href="./assets/img/Caratula5.png" data-rel="lightbox"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="content-p">
-                  <h4>FRONTEND LAIKA PAGE Desarrollado en laravel</h4>
-                  <span>Personal</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========== WAVE ==========-->
-    <div class="wave2"></div>
-    <!--========== SECTION 3 SKILLS ==========-->
-    <section class="section3" id="Skills">
-      <div class="container_skills">
-        <h2 class="titleskills">Habilidades Técnicas</h2>
-        <div class="skills">
-          <div class="details">
-            <span>HTML</span>
-            <span>90%</span>
-          </div>
-          <div class="bar">
-            <div id="html-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>CSS</span>
-            <span>75%</span>
-          </div>
-          <div class="bar">
-            <div id="css-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>JavaScript</span>
-            <span>50%</span>
-          </div>
-          <div class="bar">
-            <div id="js-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Bootstrap</span>
-            <span>60%</span>
-          </div>
-          <div class="bar">
-            <div id="bootstrap-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>PHP</span>
-            <span>60%</span>
-          </div>
-          <div class="bar">
-            <div id="php-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Python</span>
-            <span>40%</span>
-          </div>
-          <div class="bar">
-            <div id="python-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>NodeJS</span>
-            <span>60%</span>
-          </div>
-          <div class="bar">
-            <div id="node-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>JAVA</span>
-            <span>70%</span>
-          </div>
-          <div class="bar">
-            <div id="java-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>MySQL</span>
-            <span>90%</span>
-          </div>
-          <div class="bar">
-            <div id="mysql-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>MongoDB</span>
-            <span>80%</span>
-          </div>
-          <div class="bar">
-            <div id="mongo-bar"></div>
-          </div>
-        </div>
-      </div>
-      <div class="container_habilities">
-        <h2 class="titleskills">Habilidades Profesionales</h2>
-        <div class="skills">
-          <div class="details">
-            <span>Responsabilidad</span>
-            <span>100%</span>
-          </div>
-          <div class="bar">
-            <div id="responsability-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Puntualidad</span>
-            <span>90%</span>
-          </div>
-          <div class="bar">
-            <div id="puntuality-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Creatividad</span>
-            <span>80%</span>
-          </div>
-          <div class="bar">
-            <div id="creative-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Comunicacion</span>
-            <span>80%</span>
-          </div>
-          <div class="bar">
-            <div id="comunication-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Trabajo en Equipo</span>
-            <span>80%</span>
-          </div>
-          <div class="bar">
-            <div id="work-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Autonomia</span>
-            <span>80%</span>
-          </div>
-          <div class="bar">
-            <div id="autonomy-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Aprendizaje</span>
-            <span>100%</span>
-          </div>
-          <div class="bar">
-            <div id="learn-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Dedicacion</span>
-            <span>90%</span>
-          </div>
-          <div class="bar">
-            <div id="dedication-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Organizacion</span>
-            <span>100%</span>
-          </div>
-          <div class="bar">
-            <div id="organitation-bar"></div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="details">
-            <span>Trabajo bajo presion</span>
-            <span>70%</span>
-          </div>
-          <div class="bar">
-            <div id="presure-bar"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========== WAVE ==========-->
-    <div class="wave3"></div>
-    <!--========== SECTION 4 TESTIMONIALS ==========-->
-    <section class="section4" id="Testimonials">
-      <h1 class="about_title">Testimonios</h1>
-      <figure class="cards">
-        <img src="./assets/img/t1.jpg" alt="profile-sample2" />
-        <figcaption>
-          <blockquote>
-            <p>Conozco tu trabajo y sé que manejas código limpio e indexado, tiene buena perspectiva de solución de problemas y una lógica increíble.</p>
-          </blockquote>
-          <h3>Yeison Marquez</h3>
-          <h5>Full Stack Developer</h5>
-        </figcaption>
-      </figure>
-      <figure class="cards"><img src="./assets/img/t2.jpg" alt="profile-sample7" />
-        <figcaption>
-          <blockquote>
-            <p>Es una persona autónoma y proactiva, Soluciona inconvenientes y mejora la efectividad de procesos para aumentar la calidad de un sistema compuesto.</p>
-          </blockquote>
-          <h3>Cristian Sanchez</h3>
-          <h5>Arquitecto</h5>
-        </figcaption>
-      </figure>
-      <figure class="cards"><img src="./assets/img/t3.jpg" alt="profile-sample6" />
-        <figcaption>
-          <blockquote>
-            <p>Es una persona responsable y autónomo, apto para afrontar los retos más altos y encontrar la mejor solución, además está dispuesto a aprender y dejarse enseñar.</p>
-          </blockquote>
-          <h3>Fernando Bermudez</h3>
-          <h5>Ingeniero de Sistemas</h5>
-        </figcaption>
-      </figure>
-    </section>
-    <!--========== SECTION 5 CONTACT ==========-->
-    <section class="section5" id="Contact">
-      <h1 class="about_title">Contacto</h1>
-      <div class="card_contact">
-        <h1 class="title_contact">Jefferson Pulido<span class="title_span">developer junior</span></h1>
-        <ul class="contact_ul">
-          <li class="contact_li">+57 310 215 6205</li>
-          <li class="contact_li">jeffersonpulido55@gmail.com</li>
-          <li class="contact_li">Colombia</li>
-        </ul>
-      </div>
-    </section>
-    <!--========== BUTTON UP ==========-->
-    <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
-      <span class="fa-stack">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa-solid fa-arrow-up fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-    <!--========== WHATSAPP EMERGENTE ==========-->
-    <div class="nav-bottom">
-      <div class="popup-whatsapp fadeIn">
-        <div class="content-whatsapp -top">
-          <button type="button" class="closePopup">
-            <i class="fas fa-times"></i>
-          </button> 		   
-          <p class="text-whats">Hola, ¿te gustaría contactarme? </p>
-        </div>
-        <div class="content-whatsapp -bottom">
-          <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
-          <button class="send-msPopup" id="send-btn" type="button">
-            <i class="fas fa-paper-plane"></i>
-          </button>
-        </div>
-      </div>
-      <button type="button" id="whats-openPopup" class="whatsapp-button">
-        <div class="float" >
-          <i class="fa-brands fa-whatsapp my-float"></i>
-        </div>
-      </button>
-      <div class="circle-anime"></div>
-    </div>
-    <!--========== WAVE AND FOOTER ==========-->
-    <footer>
-      <div class="container__footer">
-        <div class="box__footer">
-          <h2>Capacidades</h2>
-          <a>Desarrollo Web Responsive</a>
-          <a>Buenas Practicas Programacion</a>
-          <a>Aprendizaje Agil</a>
-          <a>Manejo de Bases de Datos</a>
-        </div>
-        <div class="box__footer">
-          <h2>Navegación</h2>
-          <a href="#About">Acerca de</a>
-          <a href="#Projects">Proyectos</a>
-          <a href="#Skills">Habilidades</a>
-          <a href="#Testimonials">Testimonio</a>
-        </div>
-        <div class="box__footer">
-          <h2>Redes Sociales</h2>
-          <a href="https://www.linkedin.com/in/jeffersonpulido/" target="_blank"
-            ><i class="fab fa-linkedin"></i> LinkedIn</a
-          >
-          <a href="https://github.com/JeffersonPulido" target="_blank"
-            ><i class="fab fa-github"></i> GitHub</a
-          >
-        </div>
-      </div>
-      <div class="box__copyright">
-        <hr />
-        <p>Todos los derechos reservados © 2022 <b>JPulido Dev</b></p>
-      </div>
-    
-    </footer>
-    <!--========== SCRIPT CAROUSEL TESTIMONIALS ==========-->
-    <!--========== SCRIPT NAVBAR ==========-->
-    <script>
-      const body = document.querySelector("body");
-      const navbar = document.querySelector(".navbar");
-      const menu = document.querySelector(".menu-list");
-      const menuBtn = document.querySelector(".menu-btn");
-      const cancelBtn = document.querySelector(".cancel-btn");
-      menuBtn.onclick = () => {
-        menu.classList.add("active");
-        menuBtn.classList.add("hide");
-        cancelBtn.classList.add("show");
-        body.classList.add("disabledScroll");
-      };
-      cancelBtn.onclick = () => {
-        menu.classList.remove("active");
-        menuBtn.classList.remove("hide");
-        cancelBtn.classList.remove("show");
-        body.classList.remove("disabledScroll");
-      };
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Desarollador Web Jr con conocimientos en lenguajes de Programacion, Bases de datos, servidores y equipos" />
+        <meta name="keywords" content="desarrollador,web,php,html,css,js,bootstrap,fullstack,junior,desarrollador jr">
+        <meta name="autor" content="Jefferson Stiven Pulido Marquez"> 
+        <!-- Webpage Title -->
+        <title>Jefferson Pulido | Portafolio</title>
+        <!-- Styles -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/swiper.css" rel="stylesheet">
+        <link href="css/caruselModal.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/whats.css" rel="stylesheet">
+        <link href="css/whats2.css" rel="stylesheet">
+        <link href="css/modal.css" rel="stylesheet">
+        <!-- Icon  -->
+        <link rel="shortcut icon" href="images/logo_transparent.ico" />
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbarExample">
+        <!-- Navigation -->
+        <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+            <div class="container">
+                <!-- Image Logo -->
+                <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
+                <!-- Text Logo - Use this if you don't have a graphic logo -->
+                <!-- <a class="navbar-brand logo-text" href="index.html">Name</a> -->
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#header">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">Acerca de mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#projects">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#testimonials">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contacto</a>
+                        </li>
+                    </ul>
+                    <span class="nav-item social-icons">
+                        <span class="fa-stack">
+                            <a href="https://www.instagram.com/jeffersonpuli2/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://github.com/JeffersonPulido/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.linkedin.com/in/jeffersonpulido/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </span>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->    
 
-      window.onscroll = () => {
-        this.scrollY > 20
-          ? navbar.classList.add("sticky")
-          : navbar.classList.remove("sticky");
-      };
-    </script>
-  <!--========== SCRIPT TEXT TYPED ==========-->
-    <script>
-      $('button').click(function(){
-        $('button').toggleClass('active');
-        $('.title').toggleClass('active');
-        $('nav').toggleClass('active');
-      });
-    </script>
-    <!--========== SCRIPT WHATSAPP==========-->
-    <script src="./assets/js/script2.js"></script>
-    <!--========== SCRIPT TEXT TYPED ==========-->
-    <script src="./assets/js/typed.js"></script>
-    <!--========== SCRIPT PROJECTS ==========-->
-    <script src="./assets/js/vendor/jquery-1.10.1.min.js"></script>
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <!--========== SCRIPT PROJECTS ==========-->
-    <script src="./assets/js/circle-progress.js"></script>
-  </body>
+        <!-- Header -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1 class="h1-large">Jefferson S. Pulido M.</h1>
+                            <h1 class="h1-large">I am <span class="replace-me">Web Developer Jr, Technologist in I.T, Freelancer</span></h1>
+                            <a class="btn-neon" href="https://jeffersonpulido-cv.netlify.app/" target="_blank">Ver CV</a>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </header> <!-- end of header -->
+        <!-- end of header -->
+
+        <!-- Intro -->
+        <div id="about" class="basic-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="text-container">
+                            <div class="section-title">Acerca de mi</div>
+                            <h2>¿Quien soy?</h2>
+                            <p> Soy desarrollador Web Full Stack Jr con conocimientos básicos en POO, BDO, PHP, JAVA y otras tecnologías, además de servidores. Me considero responsable y autónomo, Me caracterizo por ser autodidacta y líder, me gusta aprender de diferentes áreas y buscar las mejores soluciones a un problema.</p>
+                            <p class="testimonial-text">"Si quieres ser el mejor, siempre exígete mas."</p>
+                            <div class="testimonial-author">Jefferson Stiven Pulido Marquez</div>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-7">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/sello.png" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-1 -->
+        <!-- end of intro -->
+
+        <!--WAVE-->
+        <img src="images/wave.svg" alt=""  id="projects">
+        <!--END WAVE-->
+        
+        <!-- Proeyctos -->
+        <div class="card-2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h2 class="h2-heading">PROYECTOS</h2>
+                      <p class="p-heading">En el transcurso de mi aprendizaje y trabajo he desarrollado los siguientes proyectos en distintos lenguajes, siguiendo estándares de calidad y encontrando la solución al problema inicial.</p>
+                  </div> <!-- end of col -->
+              </div> <!-- end of row -->
+          </div>
+        </div>
+
+        <!-- Proyectos -->
+        <div class="filter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Filter -->
+                        <div class="button-group filters-button-group">
+                            <button class="button is-checked" data-filter="*">TODOS</button>
+                            <button class="button" data-filter=".php">PHP</button>
+                            <button class="button" data-filter=".laravel">Laravel</button>
+                            <button class="button" data-filter=".nodejs">NodeJS</button>
+                            <button class="button" data-filter=".java">JAVA</button>
+                        </div> <!-- end of button group -->
+                        <div class="grid">
+                            <div class="element-item java">
+                                <a data-bs-toggle="modal" data-bs-target="#modal1">
+                                    <div class="element-item-overlay"><span>MinTIC & U. El Bosque</span></div>
+                                    <img class="img-fluid" src="images/Caratula1.png" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item nodejs">
+                                <a data-bs-toggle="modal" data-bs-target="#modal2">
+                                    <div class="element-item-overlay"><span>MinTIC & U. El Bosque</span></div>
+                                    <img class="img-fluid" src="images/Caratula2.png" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item java">
+                                <a data-bs-toggle="modal" data-bs-target="#modal3">
+                                    <div class="element-item-overlay"><span>SENA - ADSI</span></div>
+                                    <img class="img-fluid" src="images/Caratula3.png" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item php">
+                                <a data-bs-toggle="modal" data-bs-target="#modal4">
+                                    <div class="element-item-overlay"><span>Agroinsumos San Miguel SAS</span></div>
+                                    <img class="img-fluid" src="images/Caratula4.png" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item laravel">
+                                <a data-bs-toggle="modal" data-bs-target="#modal5">
+                                    <div class="element-item-overlay"><span>Personal</span></div>
+                                    <img class="img-fluid" src="images/Caratula5.png" alt="alternative">
+                                </a>
+                            </div>
+                        </div> <!-- end of grid -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of filter -->
+        <!-- end of projects -->
+
+        <!-- Proyectos Modals -->
+        <div class="projects-modals">
+            <!-- Modal -->
+            <div id="modal1" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/project-1.webp" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>ADHERENTE COADYUVANTE</h3>
+                                <hr>
+                                <p>Toda sustancia no plaguicida, adhesiva, formadora de película, emulsionante, diluyente, sinérgica, humectante o destinada a facilitar y mejorar la aplicación y la acción de un plaguicida, conservando sus características.</p>
+                                <h4>¡Lo tenemos!</h4>
+                                <ul class="list-unstyled li-space-lg">
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Ayudante 250 SL - FOSEP S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Agrotin - BAYER S.A</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Cosmo Oil - COSMOAGRO S.A</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Potenzol 3000 SL - INVESA S.A</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Acuasys Hipoten - SYS TECHNOLOGIES LTDA</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="flex-grow-1">Y hay mas...</div>
+                                    </li>
+                                </ul>
+                                <a class="btn-solid-reg" href="https://drive.google.com/uc?id=1lO0-BltCoKAAuZ1q_maMpSn7JR8RViNn&export=download" download="CATALOGO DE PRODUCTOS.xlsm">Catalogo</a>
+                                <a class="btn-outline-reg" href="https://wa.me/573142475368?text=Hola, Estoy interesado en los ADHERENTES COADYUVANTES" target="_blank">WhatsApp</a>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal2" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/project-2.webp" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>BIOESTIMULANTE</h3>
+                                <hr>
+                                <p>Son sustancias o microorganismos que modulan procesos fisiológicos y bioquímicos de las plantas. Actúan a través de diferentes mecanismos a los de los fertilizantes y productos fitosanitarios.</p>
+                                <h4>¡Lo tenemos!</h4>
+                                <ul class="list-unstyled li-space-lg">
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Cytozyme - AGROMILENIO S.A</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Ergostim - AGROAN S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Agrispon - Solugral S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Skuper - SAFER S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Hormonagro #1 - COLINAGRO S.A</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="flex-grow-1">Y hay mas...</div>
+                                    </li>
+                                </ul>
+                                <a class="btn-solid-reg" href="https://drive.google.com/uc?id=1lO0-BltCoKAAuZ1q_maMpSn7JR8RViNn&export=download" download="CATALOGO DE PRODUCTOS.xlsm">Catalogo</a>
+                                <a class="btn-outline-reg" href="https://wa.me/573142475368?text=Hola, Estoy interesado en los BIOESTIMULANTES" target="_blank">WhatsApp</a>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal3" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/project-3.webp" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>BIOINSUMOS</h3>
+                                <hr>
+                                <p>Productos elaborados a partir de organismos benéficos tales como bacterias, hongos, virus, e insectos, o bien a extractos naturales obtenidos de plantas, y que pueden ser utilizados en la producción agrícola para controlar plagas, o promover el desarrollo de las plantas.</p>
+                                <h4>¡Lo tenemos!</h4>
+                                <ul class="list-unstyled li-space-lg">
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Oasis - SAFER S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">BP-150 - SAFER S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Neofat CE - SAFER S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Rutinal - SAFER S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Safersoil - SAFER S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="flex-grow-1">Y hay mas...</div>
+                                    </li>
+                                </ul>
+                                <a class="btn-solid-reg" href="https://drive.google.com/uc?id=1lO0-BltCoKAAuZ1q_maMpSn7JR8RViNn&export=download" download="CATALOGO DE PRODUCTOS.xlsm">Catalogo</a>
+                                <a class="btn-outline-reg" href="https://wa.me/573142475368?text=Hola, Estoy interesado en los BIOINSUMOS" target="_blank">WhatsApp</a>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal4" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/project-4.webp" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>FERTILIZANTE</h3>
+                                <hr>
+                                <p>Sustancias ricas en nutrientes que se utilizan para mejorar las características del suelo para un mayor desarrollo de los cultivos agrícolas.</p>
+                                <h4>¡Lo tenemos!</h4>
+                                <ul class="list-unstyled li-space-lg">
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Humus SR - HUMUS DE LOMBRIZ S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Vicor - SOLUGRAL S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Urea granulada - DISAN COLOMBIA S.A</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Pradera 16-4-4 - HALCON COLOMBIA S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Nitrons CA-MH - MANUCHAR  CIA S.A.S.</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="flex-grow-1">Y hay mas...</div>
+                                    </li>
+                                </ul>
+                                <a class="btn-solid-reg" href="https://drive.google.com/uc?id=1lO0-BltCoKAAuZ1q_maMpSn7JR8RViNn&export=download" download="CATALOGO DE PRODUCTOS.xlsm">Catalogo</a>
+                                <a class="btn-outline-reg" href="https://wa.me/573142475368?text=Hola, Estoy interesado en los FERTILIZANTES" target="_blank">WhatsApp</a>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal5" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/project-5.webp" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>FUNGICIDA</h3>
+                                <hr>
+                                <p>Productos que matan o previenen el crecimiento de hongos y sus esporas, debido a que dañan las membranas de las células fúngicas o interfieren con la producción de energía dentro de las mismas.</p>
+                                <h4>¡Lo tenemos!</h4>
+                                <ul class="list-unstyled li-space-lg">
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Nativo SC - BAYER S.A</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Consento SC - SOLUGRAL S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Rally - CORTEVA DE COLOMBIA S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Zorvec - DUWEST COLOMBIA S.A.S</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-chevron-right"></i>
+                                        <div class="flex-grow-1">Carbendazim - FEDEARROZ</div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="flex-grow-1">Y hay mas...</div>
+                                    </li>
+                                </ul>
+                                <a class="btn-solid-reg" href="https://drive.google.com/uc?id=1lO0-BltCoKAAuZ1q_maMpSn7JR8RViNn&export=download" download="CATALOGO DE PRODUCTOS.xlsm">Catalogo</a>
+                                <a class="btn-outline-reg" href="https://wa.me/573142475368?text=Hola, Estoy interesado en los FUNGICIDAS" target="_blank">WhatsApp</a>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+        </div> <!-- end of projects-modals -->
+        <!-- end of projects modals -->
+
+        <!-- Skills -->
+        <div class="card-2"  id="skills">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h2 class="h2-heading mt-4">HABILIDADES</h2>
+                      <p class="p-heading">Algunas de las habilidades que he obtenido con el paso de la experiencia y estudios, permitiendo destacar en algunos campos del saber.</p>
+                  </div> <!-- end of col -->
+              </div> <!-- end of row -->
+          </div>
+          <div class="tabs-1">
+            <div class="area-1">
+                <div class="tabs-container">                
+                    <!-- Tabs Content -->
+                    <div class="tab-content" id="navTabsContent">
+                        <!-- Tab Details 1-->
+                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1">
+                            <!-- Progress Bars -->
+                            <div class="progress-container">
+                                <div class="title">HTML 90%</div>
+                                <div class="progress">
+                                    <div class="progress-bar first" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title">CSS 75%</div>
+                                <div class="progress">
+                                    <div class="progress-bar second" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title"> JavaScript 50%</div>
+                                <div class="progress">
+                                    <div class="progress-bar third" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title">PHP 50%</div>
+                                <div class="progress">
+                                    <div class="progress-bar four" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title">JAVA 60%</div>
+                                <div class="progress">
+                                    <div class="progress-bar five" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title">MySQL 70%</div>
+                                <div class="progress">
+                                    <div class="progress-bar six" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title">Trabajo en Equipo 80%</div>
+                                <div class="progress">
+                                    <div class="progress-bar seven" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title">Dedicacion 90%</div>
+                                <div class="progress">
+                                    <div class="progress-bar eight" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="title">Autonomia 85%</div>
+                                <div class="progress">
+                                    <div class="progress-bar nine" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div> <!-- end of progress-container -->
+                            <!-- end of progress bars -->
+                        </div> <!-- end of tab-pane --> 
+                        <!-- end of tab -->
+                    </div> <!-- end of tab-content -->
+                    <!-- end of tabs content -->
+                </div> <!-- end of tabs-container -->
+            </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
+          </div> <!-- end of tabs-1 -->
+        </div>
+        <!-- end of details 2 -->
+
+        <!-- Testimonios -->
+        <div class="slider-1"  id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading mt-4">Proveedores Aliados</h2>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/user.png" alt="alternative">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Conozco tu trabajo y sé que manejas código limpio e indexado, tiene buena perspectiva de solución de problemas y una lógica increíble.</p>
+                                        <p class="testimonial-author">Yeison Marquez - Full Stack Developer</p>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/user.png" alt="alternative">
+                                    </div>     
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Es una persona autónoma y proactiva, Soluciona inconvenientes y mejora la efectividad de procesos para aumentar la calidad de un sistema compuesto.</p>
+                                        <p class="testimonial-author">Cristian Sanchez - Arquitecto</p>
+                                    </div>   
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/user.png" alt="alternative">
+                                    </div>    
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Es una persona responsable y autónomo, apto para afrontar los retos más altos y encontrar la mejor solución, además está dispuesto a aprender y dejarse enseñar.</p>
+                                        <p class="testimonial-author">Fernando Bermudez - Docende SENA</p>
+                                    </div>    
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of slider-1 -->
+
+        <!--WAVE-->
+        <img src="images/wave2.svg" alt=""  id="projects">
+        <!--END WAVE-->
+
+        <!-- Contact -->
+        <div id="contact" class="form-2 bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <div class="section-title"><i class="fab fa-whatsapp"></i> CONTACTO</div>
+                            <h2 class="form2-title"> ¡Escríbeme!</h2>
+                            <p class="form2-p">A continuación, esta mi correo electrónico, ¡número de celular y de WhatsApp para que puedas contactarme! Muchas gracias por tu interés</p>
+                            <ul class="list-unstyled li-space-lg form2-p">
+                                <li><i class="fas fa-envelope"></i><a href="mailto:jeffersonpulido55@gmail.com" class="form2-p">jeffersonpulido55@gmail.com</a></li><br>
+                                <li><i class="fas fa-phone"></i><a href="tel:+573102156205" class="form2-p">+57 310 215 6205</a></li><br>
+                            </ul>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <!-- Contact Form -->
+                        <form>
+                            <div class="mb-4 form-floating">
+                                <input type="text" class="form-control" id="nombre" placeholder="Name" required>
+                                <label for="floatingInput4">Nombre Completo</label>
+                            </div>
+                            <div class="mb-4 form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                <label for="floatingInput5">Correo Electronico</label>
+                            </div>
+                            <div class="mb-4 form-floating">
+                                <textarea class="form-control" id="mensaje" placeholder="Your message here" rows="4" required></textarea>
+                                <label for="floatingTextarea1">Mensaje</label>
+                            </div>
+                            <div class="mb-4 form-check">
+                                <input type="checkbox" class="form-check-input" id="check" required>
+                                <label class="form-check-label form2-p" for="exampleCheck2">Estoy de acuerdo con el tratamiento de datos personales</label>
+                            </div>
+                            <button type="submit" class="form-control-submit-button" id="enviarCorreo">Enviar</button>
+                        </form>
+                        <!-- end of contact form -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of form-2 -->
+        <!-- end of contact -->
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-col first">
+                          <h6>Capacidades</h6>
+                          <p class="p-small">Desarrollo Web Responsive</p>
+                          <p class="p-small">Buenas Prácticas Programación</p>                            
+                          <p class="p-small">Aprendizaje Ágil</p>
+                          <p class="p-small">Manejo de Bases de Datos</p>
+                        </div> <!-- end of footer-col -->
+                        <div class="footer-col second">
+                          <h6>Navegación</h6>
+                          <p class="p-small"><a href="index.html#about">Acerca de mi</a></p>
+                          <p class="p-small"><a href="index.html#projects">Proyectos</a></p>                         
+                          <p class="p-small"><a href="index.html#skills">Habilidades</a></p>
+                          <p class="p-small"><a href="index.html#testimonials">Testimonios</a></p>
+                        </div> <!-- end of footer-col -->
+
+                        <div class="footer-col third">
+                            <h6>Redes Sociales</h6>
+                            <span class="fa-stack">
+                                <a href="https://www.instagram.com/jeffersonpuli2/" target="_blank">
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                              <a href="https://github.com/JeffersonPulido/" target="_blank">
+                                  <i class="fab fa-github fa-stack-1x"></i>
+                              </a>
+                            </span>
+                            <span class="fa-stack">
+                              <a href="https://www.linkedin.com/in/jeffersonpulido/" target="_blank">
+                                  <i class="fab fa-linkedin fa-stack-1x"></i>
+                              </a>
+                            </span>
+                            <p style="width: max-content;">Correo Electrónico <br><a href="mailto:jeffersonpulido55@gmail.com"><strong>jeffersonpulido55@gmail.com</strong></a></p>
+                        </div> <!-- end of footer-col -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->  
+        <!-- end of footer -->
+        
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-smallC">2022 Copyright © Jefferson Pulido</p>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright --> 
+        <!-- end of copyright -->
+
+        <!--WhatsApp Emergente-->
+        <div class="nav-bottom">
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top">
+                    <button type="button" class="closePopup">
+                        <i class="fas fa-times"></i>
+                    </button> 		   
+                    <p> <img src="images/user.png" width="50">  Hola, ¿te gustaría contactarme?  </p>
+                </div>
+                <div class="content-whatsapp -bottom">
+                <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <div class="float" >
+                    <i class="fab fa-whatsapp my-float"></i>
+                </div>
+            </button>
+            <div class="circle-anime"></div>
+        </div>
+
+        <!-- Back To Top Button -->
+        <button onclick="topFunction()" id="myBtn">
+            <img src="images/up-arrow.webp" alt="alternative">
+        </button>
+        <!-- end of back to top button -->
+
+        <!-- Scripts -->
+        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
+        <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+        <script src="js/scriptMail.js"></script> <!-- Custom2 scripts -->
+        <script src="js/modal.js"></script> <!-- Modal -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!-- SweetAlert CDN-->
+    </body>
 </html>
