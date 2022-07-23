@@ -930,7 +930,7 @@ a:hover {
 .tabs-1 .area-2 {
 	height: 432px;
 	background: url('../images/details-2-background.webp') center center no-repeat;
-	background-size: cover;
+	/* background-size: cover; */
 }
 
 
