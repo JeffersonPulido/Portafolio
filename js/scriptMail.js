@@ -16,7 +16,7 @@ Check.addEventListener("click", function(r){
         });
 
     }else{
-        swal("¡Precaución!", "Debes aceptar el Tratamiento de datos personales!", "error");
+        swal("¡Precaución!", "Debes aceptar la Política de privacidad!", "error");
     }
         
 });
